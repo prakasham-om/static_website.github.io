@@ -1,0 +1,264 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Poppins',sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+header{
+   
+    
+    height: 70vh;
+    background:linear-gradient(rgb(54, 30, 30),rgba(0,0,0,1));
+    background-image: url(lll2.jpg);
+    
+
+}
+
+ ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 55px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    
+    text-decoration: none;
+    color:rgb(20, 17, 17);
+    padding: 5px 15px;
+    border: 0px solid rgb(170, 7, 34);
+    transition: 0.5s ease;
+    border-radius: 100px;
+    
+}
+
+ul li a:hover{
+    background-color: rgb(40, 8, 156);
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-left: 0px;
+}
+.menu-bar{
+    max-width: 1200px;
+    
+}
+
+.taj{
+    position: absolute;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+}
+.taj h1{
+    color: black;
+    font-size: 40px;
+}
+.taj p{
+    color: black;
+    font-size: 20px;
+}
+.button{
+    position: absolute;
+    top:47%;
+    left: 43%;
+    transform: (-50%,-50%);
+}
+
+.room-food{
+    background-color: white;
+    width: 100%;
+    height:auto;
+}
+
+.imp{
+    width: 244.339px;
+    height: 150px;
+    margin: 0px;
+    transition: 0.9s;
+    
+    justify-content: space-evenly;
+    
+    
+    
+    
+}
+.imp:hover{
+    transform: translate(2px,15%);
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(lll.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.price{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+}
+.price h2{
+    color: black;
+    text-align: center;
+
+}
+.price h5{
+ margin-left: 17%;
+}
+
+.mmm{
+    float: left; width: 30%;
+    margin-top:80px;
+
+}
+.mmm1{
+    float: right; width: 30%;
+    margin-top:80px;
+}
+.price h4{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+} 
+
+.main{
+    width:100%;
+    height: 70vh;
+    grid-template-columns: repeat(3,1fr)150px;
+    background-color: white;
+
+
+}
+.pr1{
+    text-align: center;
+}
+
+.pp{
+    background-color: white;
+    width: 270px;
+    height: 200px;
+    margin-left: 60px;
+    
+    
+    justify-content: space-evenly;
+}
+.main h4{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: hwhite;
+}
+.para1{
+    float: left; width: 10%;
+    margin-top:80px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 30px;
+    margin: 10px;
+     position: relative;
+     left: 7em;
+    
+}
+.para2{
+    float: left; width: 10%;
+    margin-top:80px;
+    background-color: white;
+    margin-left: 150px;
+    margin: 10px;
+    position: relative;
+    left:19em;
+     
+    
+}
+.para3{
+    float: right; width: 10%;
+    margin-top:80px;
+    background-color: white;
+    margin-left: 100px;
+    margin: 10px;
+    position: relative;
+    right: 42em;
+     
+
+}
+.para4{
+    float: right; width: 10%;
+    margin-top:80px;
+    background-color: white;
+    margin-left: 10px;
+    margin: 10px;
+    position: relative;
+    right: 4em;
+    
+     
+    
+}
+
+
+.cont{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+form{
+    width: 30%;
+    max-width: 300px;
+
+}
+.container{
+    margin-bottom: 10px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px salid #fff;
+    color: rgb(20, 20, 20);
+    background:transparent;
+    font-size: 15px;
+    
+}
+#lebel{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    color: rgb(15, 15, 15);
+    cursor: text;
+}
+button{
+    padding: 10px ;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    border: 1px salid rgb(8, 8, 8);
+    
+}
+
+
+
+.contact{
+    background-color: rgb(41, 40, 39);
+    height: 20vh;
+    font-weight: 100%;
+    text-align: center;
+}
